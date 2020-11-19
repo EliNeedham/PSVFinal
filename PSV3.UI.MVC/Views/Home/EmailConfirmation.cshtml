@@ -1,0 +1,60 @@
+﻿@model PSV3.UI.MVC.Models.ContactViewModel
+
+@* small header *@
+<section class="dark-wrapper opaqued parallax" data-parallax="scroll" data-image-src="/Content/img/bg/treehouse_indo.3.jpg" data-speed="0.7">
+    <div class="section-inner pad-top-200">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mt30 wow text-center">
+                    <h2 class="section-heading">Portfolio Grid 2 Columns</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@{
+    ViewBag.Title = "Email Confirmation";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+    <h4>Thank you for reaching out! I will contact you within 48 hours</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Message)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Message)
+        </dd>
+
+    </dl>
+</div>
+

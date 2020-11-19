@@ -1,0 +1,53 @@
+﻿
+
+@{
+    ViewBag.Title = "Home";
+}
+<header id="headerwrap" class="backstretched no-overlay fullheight">
+    <div class="container vertical-center">
+        <div class="intro-text vertical-center text-left smoothie">
+            <div class="intro-heading wow fadeIn heading-font" data-wow-delay="0.2s">Elizabeth Needham</div>
+            <div class="intro-sub-heading wow fadeIn secondary-font" data-wow-delay="0.4s">Here to help you <span class="rotate">grow, profit, succeed</span></div>
+            @*<a href="#welcome" class="btn btn-primary btn-white mt30 page-scroll" data-wow-delay="0.6s">Find Out More</a>*@
+        </div>
+    </div>
+</header>
+
+<div class="row">
+    <div class="col-sm-6 nopadding-lr match-height white-bg" data-mh="promo-inner">
+        <div class="section-inner pad-sides-60 promo-inner">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="mt0">Where I come from</h3>
+                <p class="lead">A hunger for wisdom and knowledge, a passion for travel and language paired with over 15 years of customer service have culminated in a strong ability to read a room, organic collaboration with others, and excellent communications skills.  I'm a team player and enjoy seeing my team members succeed. I appreciate providing solutions to co-workers and clients and love when my work creates happiness, satisfaction and efficiency. I delight in shared laughter - warning - there will be puns.</p>
+                <p class="mt30">
+                    @Html.ActionLink("Check out my Resume", "Resume", "Home", null, new { @class = "btn btn-primary btn-white page-scroll" })
+                </p>
+                
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 nopadding-lr dark-wrapper remove-opacqued-bg opaqued background-cover match-height" style="background-image: url('/Content/img/bg/brown_suit.jpg');" data-mh="promo-inner">
+        <div class="dark-opaqued section-inner pad-sides-60 text-right promo-inner"></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6 nopadding-lr dark-wrapper remove-opacqued-bg opaqued background-cover match-height" style="background-image: url('/Content/img/bg/E_headshot2_crop.jpg');" data-mh="promo-inner">
+        <div class="dark-opaqued section-inner pad-sides-60 text-right promo-inner"></div>
+    </div>
+    <div class="col-sm-6 nopadding-lr match-height" data-mh="promo-inner">
+        <div class="section-inner pad-sides-60 promo-inner">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="mt0">Where I am going</h3>
+                <p class="lead">
+                    I am particularly excited about pursuing IT as it brings meaningful challenge, problem solving, and time freedom to my every day. It's important to me to be involved in my local community, my new skills will allow me to help the organizations I volunteer in even more! I love language and other cultures, they fascinate me and my desire to learn more is insatiable. I seek challenge and am constantly searching for ways to grow. In my spare time, I am a mountain biker, snowboarder and general outdoor enthusiast, I also love cooking and crafting.
+                </p>
+                @*<p class="lead">Contrasted interested eat alteration pianoforte sympathize was. He families believed if no elegance interest surprise an. It abode wrong miles an so delay plate. She relation own put outlived may disposed.</p>
+        <p>Credibly expedite progressive expertise without enterprise-wide imperatives. Dynamically iterate multimedia based manufactured products for business value. Dynamically iterate client-centered best practices before process-centric solutions.</p>*@
+                <p class="mt30">
+                    @*<a href="class=" btn btn-primary btn-white page-scroll">Find Out More</a>*@
+                    @Html.ActionLink("Contact Me", "Contact", "Home", null, new { @class = "btn btn-primary btn-white page-scroll" })
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
