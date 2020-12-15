@@ -286,6 +286,7 @@
     <Content Include="Content\img-placeholders\news\7.jpg" />
     <Content Include="Content\img-placeholders\news\8.jpg" />
     <Content Include="Content\img-placeholders\news\9.jpg" />
+    <Content Include="Content\img\news\MaidinKC.jpg" />
     <Content Include="Content\img-placeholders\portfolio\portfolio1-tall.jpg" />
     <Content Include="Content\img-placeholders\portfolio\portfolio1.jpg" />
     <Content Include="Content\img-placeholders\portfolio\portfolio10.jpg" />
@@ -411,6 +412,8 @@
     <Content Include="Content\img\news\abstract-lotus-logo.jpg" />
     <Content Include="Content\img\news\Bob%27s-Burgers.jpg" />
     <Content Include="Content\img\news\lotus_logo_white.jpg" />
+    <Content Include="Content\img\news\MaidinKC2.jpg" />
+    <Content Include="Content\img\news\Storefront.PNG" />
     <Content Include="Content\img\news\under-construction-pages-1-image-library.jpg" />
     <Content Include="Content\img\news\under-construction-pages-3-2.jpg" />
     <Content Include="Content\img\portfolio\portfolio1-tall.jpg" />
